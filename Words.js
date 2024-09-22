@@ -1,5 +1,4 @@
 function censoredWords(text, word) {
-
     let toReplace = `*`.repeat(word.length);
     while (text.includes(word)) {
         text = text.replace(word, toReplace);
